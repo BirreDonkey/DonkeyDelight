@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.donkeydelight.init.DonkeyDelightModTabs;
+import net.mcreator.donkeydelight.init.DonkeyDelightModItems;
+import net.mcreator.donkeydelight.init.DonkeyDelightModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +51,9 @@ public class DonkeyDelightMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		DonkeyDelightModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DonkeyDelightModBlocks.REGISTRY.register(bus);
+		DonkeyDelightModItems.REGISTRY.register(bus);
 
 	}
 
