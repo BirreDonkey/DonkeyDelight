@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "donkey_delight:block/pot"
+    },
+    "facing=east": {
+      "model": "donkey_delight:block/pot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "donkey_delight:block/pot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "donkey_delight:block/pot",
+      "y": 270
     }
   }
 }

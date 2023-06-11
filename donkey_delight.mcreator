@@ -51,9 +51,9 @@
       "registry_name": "pan",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/donkeydelight/block/PanBlock.java",
-          "src/main/resources/assets/donkey_delight/models/item/pan.json",
           "src/main/resources/assets/donkey_delight/blockstates/pan.json",
+          "src/main/resources/assets/donkey_delight/models/item/pan.json",
+          "src/main/java/net/mcreator/donkeydelight/block/PanBlock.java",
           "src/main/resources/assets/donkey_delight/models/block/pan.json"
         ]
       }
@@ -67,10 +67,10 @@
       "registry_name": "pot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/donkey_delight/blockstates/pot.json",
-          "src/main/java/net/mcreator/donkeydelight/block/PotBlock.java",
           "src/main/resources/assets/donkey_delight/models/block/pot.json",
-          "src/main/resources/assets/donkey_delight/models/item/pot.json"
+          "src/main/resources/assets/donkey_delight/models/item/pot.json",
+          "src/main/java/net/mcreator/donkeydelight/block/PotBlock.java",
+          "src/main/resources/assets/donkey_delight/blockstates/pot.json"
         ]
       }
     }
