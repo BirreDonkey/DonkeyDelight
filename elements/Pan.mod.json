@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "pan:default",
-    "rotationMode": 3,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -71,10 +71,10 @@
       {
         "mx": 7.0,
         "my": 0.0,
-        "mz": 14.0,
+        "mz": -11.0,
         "Mx": 9.0,
         "My": 2.0,
-        "Mz": 27.0,
+        "Mz": 2.0,
         "subtract": false
       }
     ],
