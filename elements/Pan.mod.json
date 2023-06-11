@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "temp",
+    "texture": "pan",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "pan:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -24,12 +24,57 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 2.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 1.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 1.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 3.0,
+        "Mz": 3.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 1.0,
+        "mz": 13.0,
+        "Mx": 14.0,
+        "My": 3.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 13.0,
+        "my": 1.0,
+        "mz": 3.0,
+        "Mx": 14.0,
+        "My": 3.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 1.0,
+        "mz": 3.0,
+        "Mx": 3.0,
+        "My": 3.0,
+        "Mz": 13.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 9.0,
+        "My": 2.0,
+        "Mz": 27.0,
         "subtract": false
       }
     ],
@@ -54,7 +99,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +124,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
