@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "donkey_delight:blocks/temp",
+    "up": "donkey_delight:blocks/temp",
+    "north": "donkey_delight:blocks/temp",
+    "east": "donkey_delight:blocks/temp",
+    "south": "donkey_delight:blocks/temp",
+    "west": "donkey_delight:blocks/temp",
+    "particle": "donkey_delight:blocks/temp"
+  },
+  "render_type": "solid"
+}

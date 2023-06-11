@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.donkeydelight.block.StoveBlock;
+import net.mcreator.donkeydelight.block.PotBlock;
+import net.mcreator.donkeydelight.block.PanBlock;
 import net.mcreator.donkeydelight.block.BurningStoveBlock;
 import net.mcreator.donkeydelight.DonkeyDelightMod;
 
@@ -18,4 +20,6 @@ public class DonkeyDelightModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DonkeyDelightMod.MODID);
 	public static final RegistryObject<Block> BURNING_STOVE = REGISTRY.register("burning_stove", () -> new BurningStoveBlock());
 	public static final RegistryObject<Block> STOVE = REGISTRY.register("stove", () -> new StoveBlock());
+	public static final RegistryObject<Block> PAN = REGISTRY.register("pan", () -> new PanBlock());
+	public static final RegistryObject<Block> POT = REGISTRY.register("pot", () -> new PotBlock());
 }

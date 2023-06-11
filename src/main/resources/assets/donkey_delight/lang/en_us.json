@@ -1,5 +1,7 @@
 {
+  "block.donkey_delight.pot": "Pot",
   "itemGroup.tabdonkey_delight": "Donkey Delight",
   "block.donkey_delight.stove": "Stove",
-  "block.donkey_delight.burning_stove": "Burning Stove"
+  "block.donkey_delight.burning_stove": "Burning Stove",
+  "block.donkey_delight.pan": "Pan"
 }

@@ -41,15 +41,49 @@
           "src/main/resources/assets/donkey_delight/models/item/burning_stove.json"
         ]
       }
+    },
+    {
+      "name": "Pan",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/donkeydelight/block/PanBlock.java",
+          "src/main/resources/assets/donkey_delight/models/item/pan.json",
+          "src/main/resources/assets/donkey_delight/blockstates/pan.json",
+          "src/main/resources/assets/donkey_delight/models/block/pan.json"
+        ]
+      }
+    },
+    {
+      "name": "Pot",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/donkey_delight/blockstates/pot.json",
+          "src/main/java/net/mcreator/donkeydelight/block/PotBlock.java",
+          "src/main/resources/assets/donkey_delight/models/block/pot.json",
+          "src/main/resources/assets/donkey_delight/models/item/pot.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.donkey_delight.pot": "Pot",
       "itemGroup.tabdonkey_delight": "Donkey Delight",
       "block.donkey_delight.stove": "Stove",
-      "block.donkey_delight.burning_stove": "Burning Stove"
+      "block.donkey_delight.burning_stove": "Burning Stove",
+      "block.donkey_delight.pan": "Pan"
     }
   },
   "foldersRoot": {

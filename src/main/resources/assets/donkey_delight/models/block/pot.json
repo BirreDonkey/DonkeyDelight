@@ -1,0 +1,9 @@
+{
+  "parent": "donkey_delight:custom/pot",
+  "textures": {
+    "all": "donkey_delight:blocks/temp",
+    "particle": "donkey_delight:blocks/temp",
+    "0": "donkey_delight:blocks/pottexture"
+  },
+  "render_type": "solid"
+}
