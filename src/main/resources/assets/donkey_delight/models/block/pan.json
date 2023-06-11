@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "donkey_delight:custom/pot",
   "textures": {
-    "down": "donkey_delight:blocks/temp",
-    "up": "donkey_delight:blocks/temp",
-    "north": "donkey_delight:blocks/temp",
-    "east": "donkey_delight:blocks/temp",
-    "south": "donkey_delight:blocks/temp",
-    "west": "donkey_delight:blocks/temp",
-    "particle": "donkey_delight:blocks/temp"
+    "all": "donkey_delight:blocks/pan",
+    "particle": "donkey_delight:blocks/pan",
+    "0": "donkey_delight:blocks/pottexture"
   },
   "render_type": "solid"
 }
