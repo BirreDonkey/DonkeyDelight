@@ -1,9 +1,9 @@
 {
-  "parent": "donkey_delight:custom/pot",
+  "parent": "donkey_delight:custom/pan",
   "textures": {
-    "all": "donkey_delight:blocks/pan",
-    "particle": "donkey_delight:blocks/pan",
-    "0": "donkey_delight:blocks/pottexture"
+    "all": "donkey_delight:blocks/temp",
+    "particle": "donkey_delight:blocks/temp",
+    "0": "donkey_delight:blocks/pan"
   },
   "render_type": "solid"
 }
