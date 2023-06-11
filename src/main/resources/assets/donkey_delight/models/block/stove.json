@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "donkey_delight:custom/stove",
   "textures": {
-    "down": "donkey_delight:blocks/temp",
-    "up": "donkey_delight:blocks/temp",
-    "north": "donkey_delight:blocks/temp",
-    "east": "donkey_delight:blocks/temp",
-    "south": "donkey_delight:blocks/temp",
-    "west": "donkey_delight:blocks/temp",
-    "particle": "donkey_delight:blocks/temp"
+    "all": "donkey_delight:blocks/temp",
+    "particle": "donkey_delight:blocks/temp",
+    "0": "donkey_delight:blocks/stove"
   },
   "render_type": "solid"
 }

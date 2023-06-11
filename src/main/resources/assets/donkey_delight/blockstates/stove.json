@@ -1,19 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "donkey_delight:block/stove"
-    },
-    "facing=east": {
-      "model": "donkey_delight:block/stove",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "donkey_delight:block/stove",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "donkey_delight:block/stove",
-      "y": 270
     }
   }
 }
