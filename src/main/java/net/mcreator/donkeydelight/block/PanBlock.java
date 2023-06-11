@@ -48,6 +48,16 @@ public class PanBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> Shapes.or(box(2, 0, 2, 14, 1, 14), box(2, 1, 13, 14, 3, 14), box(2, 1, 2, 14, 3, 3), box(2, 1, 3, 3, 3, 13), box(13, 1, 3, 14, 3, 13), box(7, 0, -11, 9, 2, 2));
+			case NORTH -> Shapes.or(box(2, 0, 2, 14, 1, 14), box(2, 1, 2, 14, 3, 3), box(2, 1, 13, 14, 3, 14), box(13, 1, 3, 14, 3, 13), box(2, 1, 3, 3, 3, 13), box(7, 0, 14, 9, 2, 27));
+			case EAST -> Shapes.or(box(2, 0, 2, 14, 1, 14), box(13, 1, 2, 14, 3, 14), box(2, 1, 2, 3, 3, 14), box(3, 1, 13, 13, 3, 14), box(3, 1, 2, 13, 3, 3), box(-11, 0, 7, 2, 2, 9));
+			case WEST -> Shapes.or(box(2, 0, 2, 14, 1, 14), box(2, 1, 2, 3, 3, 14), box(13, 1, 2, 14, 3, 14), box(3, 1, 2, 13, 3, 3), box(3, 1, 13, 13, 3, 14), box(14, 0, 7, 27, 2, 9));
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}
